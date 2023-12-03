@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	scanner, file := util.GetScanner() // Capitalize the G in GetScanner
+	scanner, file := util.GetScanner()
 	defer file.Close()
 	total := 0
 	coordinateSlice := []string{}
