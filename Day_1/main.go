@@ -1,11 +1,12 @@
 package main
 
 import (
-	"Day_1/internal/util"
 	"fmt"
 	"log"
 	"strconv"
 	"strings"
+
+	"github.com/bjlePersonalGithub/Advent-Of-Code/Day_1/internal/util"
 )
 
 func main() {
