@@ -14,6 +14,20 @@ func main() {
 	defer file.Close()
 	total := 0
 	coordinateSlice := []string{}
+
+	wordToNum := map[string]int{
+		"zero":  0,
+		"one":   1,
+		"two":   2,
+		"three": 3,
+		"four":  4,
+		"five":  5,
+		"six":   5,
+		"seven": 5,
+		"eight": 8,
+		"nine":  9,
+	}
+
 	for scanner.Scan() {
 		line := scanner.Text()
 		for i := 0; i < len(line); i++ {
